@@ -6,6 +6,8 @@ Research "Concordia University".
 # Sumary.
 This repository contains an implementation of a Receding Horizon Control to solve the tracking trajectory problem in mobile robots. The robot used is a differential drive robot which is linearized by using Dynamic Feedback linearization. The key aspect of the control is the management of input constraints, which change across the linearization procedure. The simulation is performed using Matlab, and the validation of the controller is achieved by implementing the control in a Digital Twin of the Qbot2 robot provided by Quanser Company. this control implementation is based on [1] and is part of a master thesis of the owner of this repository.
 # Problem Formulation.
+![image](https://github.com/fercho-0109/Receding-horizon-control-for-tracking-trajectory-using-differential-drive-robots/assets/40362695/794e708b-1791-45bc-a1ba-c37edbe86396)  
+
 Considering the differential drive model, the input constraints set, and a bounded trajectory 𝑟(𝑡),  
 Design a feedback control lay [𝜔_𝑅,𝜔_𝐿 ]=𝑔(𝑝(𝑡),𝜃(𝑡),𝑟(𝑡)) such that the tracking error is bounded and [𝜔_𝑅,𝜔_𝐿 ]∈ 𝑈_𝑑,∀𝑡≥0
 
