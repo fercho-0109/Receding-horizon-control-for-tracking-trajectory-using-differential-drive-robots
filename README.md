@@ -18,7 +18,6 @@ Design a feedback control lay [𝜔_𝑅,𝜔_𝐿 ]=𝑔(𝑝(𝑡),𝜃(𝑡),
 The repository contains two main folders  
 1. **Matlab-simulation**: This folder contains a replication of the paper [[1](https://ieeexplore.ieee.org/document/9956741)] using Quanser enviroment. This is implemented using different linearization techniques according to the paper which is "Dynamic feedback linearization". Moreover, it contains the Matlab files to run the control. 
 2. **Quanser-simulation**: This folder contains a replication of the paper [[1](https://ieeexplore.ieee.org/document/9956741)] as well, but this time using the Qbot 2e Digital Twin provided by Quanser.
-3. 
 ### Bibliography  
 [1] Cristian Tiriolo, Giuseppe Franzè, and Walter Lucia. An obstacle-avoidance receding horizon control scheme for constrained differential-drive robot via dynamic feedback linearization. In 2023 American Control Conference (ACC), pages 1116–1121, 2023.
 
@@ -29,9 +28,9 @@ Download the respective folder called Matlab_simulation, Then for:
 ### For Quanser Simulation using the Qbot2e Digital Twin.
 Download the respective folder called Quanser_simulation. Then, open the Quanser interactive labs and select Qbot 2e.
 - **Tracking problem**
-  - Setup the position of the robot, go to Options - Change reset location - choose x=-0.25, y=-1.75, rotation=180 deg
-  - First, run "**Main_tracking_using_dyn_lin_Quanser.m**". To configure the parameters.
-  - Second, open and run the Simulink file "**Tracking_with_dynamic_lin.slx**" Then, the robot in the simulator should start to move and follow the trajectory that is the red line in the environment. If the connection with the simulator fails, close the simulator and open it again.
+- Setup the position of the robot, go to Options - Change reset location - choose x=-0.25, y=-1.75, rotation=180 deg
+- First, run "**Main_tracking_using_dyn_lin_Quanser.m**". To configure the parameters.
+- Second, open and run the Simulink file "**Tracking_with_dynamic_lin.slx**" Then, the robot in the simulator should start to move and follow the trajectory that is the red line in the environment. If the connection with the simulator fails, close the simulator and open it again.
 
 # Example to run an experiment  
 **"Tracking Problem using Dynamic linearization"**
