@@ -27,7 +27,7 @@ Download the respective folder called Matlab_simulation, Then for:
 - Tracking problem: run "**Tracking_using_dynmaic_lin.m**" for Dynamic linearization
 ### For Quanser Simulation using the Qbot2e Digital Twin.
 Download the respective folder called Quanser_simulation. Then, open the Quanser interactive labs and select Qbot 2e.
-**Tracking problem**
+
 - Setup the position of the robot, go to Options - Change reset location - choose x=-0.25, y=-1.75, rotation=180 deg
 - First, run "**Main_tracking_using_dyn_lin_Quanser.m**". To configure the parameters.
 - Second, open and run the Simulink file "**Tracking_with_dynamic_lin.slx**" Then, the robot in the simulator should start to move and follow the trajectory that is the red line in the environment. If the connection with the simulator fails, close the simulator and open it again.
